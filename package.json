@@ -12,7 +12,7 @@
   "main": "server.coffee",
   "dependencies": {
     "americano": "0.4.0",
-    "americano-cozy": "0.2.11",
+    "americano-cozy-pouchdb": "0.3.5",
     "archiver": "0.14.3",
     "async": "0.9.0",
     "axon": "0.6.1",
@@ -26,7 +26,8 @@
     "node-polyglot": "0.4.0",
     "printit": "0.1.6",
     "qs": "0.6.6",
-    "socket.io": "0.9.14"
+    "socket.io": "0.9.14",
+    "path-extra": "0.2.1"
   },
   "devDependencies": {
     "chai": "1.9.1",
